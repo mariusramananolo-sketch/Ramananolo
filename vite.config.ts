@@ -7,8 +7,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Chemin de publication GitHub Pages
-    base: '/Ramananolo/',
+    // Chemin de publication Vercel
+    base: '/',
 
     plugins: [
       react(),
